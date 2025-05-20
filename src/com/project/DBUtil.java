@@ -8,7 +8,7 @@ public class DBUtil {
         Connection conn = null;
         try {
             DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "Vishnu@9963");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "your SQL password");
         } catch (SQLException e) {
             System.out.println(e);
         }
